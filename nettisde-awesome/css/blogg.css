@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "kawaii";
+    src:url(../font/kawaifont.ttf);
+}
+
+body{
+    background: url(../bilder/kawaii.gif);
+    background-size: 100px;
+    font-family: "kawaii";
+    text-decoration: none;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC),auto;
+ ;
+}
+
+#overskrift{ 
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+h1{
+    text-align: center;
+    border: transparent 10px;
+    border-width: 10px;
+    font-size: 300%;
+    font-weight: bold;
+    border: solid rgba(255, 0, 0, 0.35) 10px;
+    border-radius: 20px;
+    background-color: pink;
+    color:azure;
+   
+}
+
+nav{
+    margin-top: 10px;
+    text-align: center;
+    border: solid salmon 10px;
+    border-radius: 50px;
+    background-color: honeydew;
+    
+ 
+ 
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+
+
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    background-color: salmon;
+    border-radius: 50px;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: rgba(255, 0, 0, 0.35);
+} 
+
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    gap: 60px;
+    justify-content: center;
+    background-color:honeydew;
+    border:10px solid rgba(255, 0, 0, 0.55);
+    border-radius: 100px;
+    width: 60%;
+    margin-top: 60px;
+    font-size: 40px;
+    color: pink;
+
+}
+
+h2{
+    font-weight:bold;
+    text-align: center;
+    color: pink;
+
+    
+}
+
+#katt1{
+
+    height: auto;
+    width: 75%;
+    image-rendering: pixelated;
+}
+
+#katt2{
+    height: auto;
+    width: 75%;
+    image-rendering: pixelated;
+
+}
+
+.artikkel{
+    width: 50%;
+    text-align: center;
+
+
+}
+
+.artikkel-tekst{
+    font-size: 20px;
+}
